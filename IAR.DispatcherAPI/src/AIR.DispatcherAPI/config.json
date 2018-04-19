@@ -1,0 +1,41 @@
+﻿{
+  "Data": {
+    "DefaultConnection": {
+      "ConnectionString": "server=localhost;userid=errs;password=Er1Rs2;database=dispatcherapi;"
+    }
+  },
+  //"Multitenancy": {
+  //  "Tenants": {
+  //    "Name": "ProviderUSA",
+  //    "Hostnames": [
+  //      "localhost"
+  //    ],
+  //    "ConnectionString": "server=localhost;userid=errs;password=Er1Rs2;database=dispatcherapi;"
+  //  },
+  //  "Name": "ProviderCANADA",
+  //  "Hostnames": [
+  //    "localhost"
+  //  ],
+  //  "ConnectionString": "server=localhost;userid=errs;password=Er1Rs2;database=dispatcherapicanada;"
+  //}
+  "ProviderUSA": {
+    "Name": "ProviderUSA",
+    "Hostnames": [
+      "localhostUSA"
+    ],
+    "ConnectionString": "server=localhost;userid=errs;password=Er1Rs2;database=dispatcherapi;"
+  },
+  "ProviderCANADA": {
+    "Name": "ProviderCANADA",
+    "Hostnames": [
+      "localhostCanada"
+    ],
+    "ConnectionString": "server=localhost;userid=errs;password=Er1Rs2;database=dispatcherapicanada;"
+
+  }
+
+  //"ConnectionStrings": {
+  //  "DataAccessMySqlProviderUSA": "server=localhost;userid=errs;password=Er1Rs2;database=dispatcherapi;",
+  //  "DataAccessMySqlProviderCANADA": "server=localhost;userid=errs;password=Er1Rs2;database=dispatcherapicanada;"
+  //}
+}
